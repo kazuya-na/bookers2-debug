@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "app" %>
   </head>
-  <body>
+  <body style="background: radial-gradient(ellipse at top, #d8c4e9, transparent), radial-gradient(ellipse at bottom, #ab3939, transparent);">
     <%= render 'layouts/header', book: @book %>
       <main>
         <p id="notice"><%= notice %></p>
